@@ -1,0 +1,21 @@
+.img{
+    padding: 100px;
+    animation: myurmi 10s infinite alternate;
+   
+}
+.urmi{
+    color: red;
+    
+}
+
+@keyframes myurmi{
+    from{
+        transform: scale(.1);
+        letter-spacing: -50px;
+        filter: blur(60px);
+        padding: 400px;
+    }to{
+        transform: scale(1);
+        letter-spacing: 0px;
+    }
+}
